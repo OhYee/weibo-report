@@ -2,6 +2,22 @@
 
 具体干什么用的，咱也不知道，咱也不敢问。我就是被拉过来写代码的。
 
+## 依赖安装
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+## 运行
+
+以下三种任一即可
+
+```bash
+python  "./src/weibo-report.py"
+./run
+run.bat
+```
+
 ## 步骤
 
 1. 将用户信息写入到`user.txt`中，将要举报的链接写入到`url.txt`中。格式为一行一组数据，账号和密码使用空格隔开
