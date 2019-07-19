@@ -11,7 +11,7 @@ def check_proxy(proxy):
             },
             timeout=(5, 5)
         ).json()
-        print(data)
+        # print(data)
         return proxy.split(":")[0] == data["query"] and (data["country"] == "China" or data["country"] == "Hong Kong")
     except:
         return False
